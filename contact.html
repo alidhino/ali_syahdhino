@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>layout CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="hamburger-menu" onclick="togglemenu()">
+            <div class = "bar"></div>
+            <div class = "bar"></div>
+            <div class = "bar"></div>
+            <div class = "bar"></div>
+
+
+        </div>
+        <nav class="navbar">
+            <div class="logo" ><img src="dhino.jpg" ></div>
+            <ul class="nav-links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="service.html">Blog</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Pendaftaran</legend>
+            <section class="contact-section">
+        <form action="/submit-contact" method="post">
+        <p>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+        </p>
+        <p>
+            Jenis kelamin <input type="radio" name="jenis_kelamin" id="">laki-laki
+            <input type="radio" name="jenis_kelamin" id="">perempuan
+        </p>
+        <p>
+            <label for="agama">agama</label>
+            <select name="agama" id="">
+                <option value="agama">islam</option>
+                <option value="agama">katolik</option>
+                <option value="agama">protestan</option>
+                <option value="agama">budha</option>
+                <option value="agama">hindu</option>
+            </select>
+        </p>
+        <p>
+            <label for="">tempat lahir</label>
+            <input type="text" name="" id="">
+        </p>
+        <p>
+            <label for="">tanggal lahir</label>
+            <input type="date" name="" id="">
+        </p>
+        <div class="from-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+        </div>
+        <p>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message" rows="4" required></textarea>
+        </p>
+            <button type="submit">Submit</button>
+            </form>
+        </fieldset>
+    </from>
+    </main>
+    </main>
+        <footer>
+            <p>&copy; 2024 your website. all right reseved.</p>
+        </footer>
+
+
+
+</body>
+</html>
